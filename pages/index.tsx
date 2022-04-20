@@ -95,9 +95,13 @@ function HomePage() {
         <Fragment>
             <div className={styles.background}>
                 <Header />
-                <div className={styles.navContainer} >
-                    <a className={styles.navBtn} onClick={onclick} >
-                        {open ? <MenuIcon /> : <CloseIcon style={{backgroundColor : 'red'}} />}
+                <div className={styles.navContainer}>
+                    <a className={styles.navBtn} onClick={onclick}>
+                        {open ? (
+                            <MenuIcon style={{ backgroundColor: '#4a5162' }} />
+                        ) : (
+                            <CloseIcon style={{ backgroundColor: 'red' }} />
+                        )}
                     </a>
                 </div>
                 <div className={styles.container}>
