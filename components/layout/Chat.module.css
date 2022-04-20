@@ -6,6 +6,7 @@
     height: 75vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .chat_heading {
@@ -19,18 +20,18 @@
     color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.chat_body_chat_instructions{
+.chat_body_chat_instructions {
     display: flex;
-    font-size:14px;
+    font-size: 14px;
     align-items: center;
 }
 
 .chat_body {
     height: 85%;
-    overflow:scroll;
+    overflow: scroll;
 }
 
 .chat_typing {
@@ -41,7 +42,6 @@
     flex-direction: row;
     margin-bottom: 4px;
     margin-left: 3px;
-
 }
 
 .type_input {
@@ -57,8 +57,8 @@
 .send_btn {
     border: none;
     background-color: rgb(106, 192, 239);
-    margin:2px;
-    border-radius:5px;
+    margin: 2px;
+    border-radius: 5px;
 }
 
 .image {
